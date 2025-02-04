@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandhya Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="left-section">
+            <div class="name">Sandhya Yadav</div>
+            <div class="contact">
+                <i class="fas fa-envelope"></i>
+                <span>sandhya99096@gmail.com</span>
+            </div>
+            <div class="contact">
+                <i class="fas fa-phone"></i>
+                <span>+1234567890</span>
+            </div>
+        </div>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#recommendations">Recommendations</a>
+        </nav>
+    </header>
+    <main>
+        <div class="avatar">
+            <img src="Sandy.jpg" alt="Sandhya Avatar">
+        </div>
+        <section id="about" class="intro">
+            <h1>Hi, I'm Sandhya Yadav! <span class="wave-emoji">👋</span></h1>
+            <p>I am a passionate software developer with expertise in web development, problem-solving, and a love for learning new technologies. I have experience in Java, Python, HTML, CSS, JavaScript, and React.js. Currently, I am a Fullstack Fellow at Hyper Verge Academy, enhancing my skills in full-stack development.</p>
+        </section>
+
+    </main>
+
+
+    <div class="container" id="skills">
+        <h1 class="title">Skills</h1>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="html.png" alt="HTML">
+                <p>HTML</p>
+                <span>2 years experience</span>
+            </div>
+            <div class="skill-card">
+                <img src="js.png" alt="JavaScript">
+                <p>JavaScript</p>
+                <span>1.5 years experience</span>
+            </div>
+            <div class="skill-card">
+                <img src="java.png" alt="Java">
+                <p>Java</p>
+                <span>0.5 years experience</span>
+            </div>
+            <div class="skill-card">
+                <img src="react-icon.png" alt="React">
+                <p>React</p>
+                <span>1 year experience</span>
+            </div>
+            <div class="skill-card">
+                <img src="python.png" alt="Node.js">
+                <p>Python</p>
+                <span>0.5 year experience</span>
+            </div>
+            <div class="skill-card">
+                <img src="css.png" alt="CSS">
+                <p>CSS</p>
+                <span>2 years experience</span>
+            </div>
+        </div>
+    </div>
+<div>
+    <div id="projects" class="container-Project">
+        <h1 class="title">Projects</h1>
+        
+        <div class="project">
+            <h3><a href="https://github.com/Sandhyayadv/Book-Shop-App" target="_blank">Book-Shop</a></h3>
+            <p>• A shopping cart app built with React-Router, Redux-Toolkit, and CSS. Users can browse books, add them to their cart, and manage quantities or remove items. </p>
+        </div>
+        
+        <div class="project">
+            <h3><a href="https://github.com/Sandhyayadv/Know-Your-Food" target="_blank">Know-Your-Food</a></h3>
+            <p>• A recipe search app built with ReactJS, using the Edamam API to provide nutritional details and track calorie consumption.</p>
+        </div>
+        
+        <div class="project">
+            <h3><a href="https://github.com/Sandhyayadv/KBC-Quiz-App" target="_blank">KBC Quiz App</a></h3>
+            <p>• A quiz app inspired by “Kaun Banega Crorepati,” featuring a 30-second timer and dynamic animations for correct/incorrect answers.</p>
+        </div>
+        
+    </div>
+</div>
+
+<div>
+    <div id="recommendations" class="container-recom">
+        <h1 class="title">Recommendations</h1>
+        
+        <div class="recommendations">
+            <div class="recommendation-box">
+                <p>"Sandhya is an excellent developer! Her problem-solving skills and technical expertise are outstanding."</p>
+            </div>
+            <div class="recommendation-box">
+                <p>"Working with Sandhya has been a great experience. She is a team player and delivers high-quality work."</p>
+            </div>
+            <div class="recommendation-box">
+                <p>"Sandhya consistently goes above and beyond to ensure project success. Highly recommend her skills!"</p>
+            </div>
+        </div>
+    </div>
+</div>       
+        <div class="container-leave">
+            <h1 class="title">Leave a Recommendation</h1>
+    
+            <form class="recommendation-form">
+                <label for="name">Name (Optional):</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+    
+                <label for="recommendation">Your Recommendation:</label>
+                <textarea id="recommendation" name="recommendation" placeholder="Write your recommendation here..."></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+</body>
+</html>
